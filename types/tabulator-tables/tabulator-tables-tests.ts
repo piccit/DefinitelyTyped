@@ -977,7 +977,7 @@ table = new Tabulator('#example-table', {
     columnMaxWidth: 300,
 });
 
-table.refreshFilters();
+table.refreshFilter();
 table.clearHistory();
 
 colDef.maxWidth = 300;
